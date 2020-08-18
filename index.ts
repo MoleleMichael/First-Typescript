@@ -22,4 +22,4 @@ ToDo[4]['taskStatus'] = "Done"
 }
 update()
 
-console.log(ToDo[4]);
+console.log(ToDo[4]['taskname'] + " " + ToDo[4]['taskDate'] + " " + ToDo[4]['taskStatus']);
